@@ -1,0 +1,56 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyd
+*.db
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.env/
+
+# FastAPI specific
+*.sqlite3
+*.log
+*.egg-info/
+dist/
+build/
+
+# Dependency directories
+pip-wheel-metadata/
+*.egg
+.eggs/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Pytest
+.cache/
+*.cover
+*.coverage
+coverage.xml
+*.hypothesis/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+
+# VSCode settings
+.vscode/
